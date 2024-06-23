@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/indra/Documents/ValueInvest/ValueInvest.csproj",
-      "projectName": "ValueInvest",
-      "projectPath": "/home/indra/Documents/ValueInvest/ValueInvest.csproj",
+      "projectUniqueName": "/home/indra/Documents/Project/ValueInvest/MvcMovie.csproj",
+      "projectName": "MvcMovie",
+      "projectPath": "/home/indra/Documents/Project/ValueInvest/MvcMovie.csproj",
       "packagesPath": "/home/indra/.nuget/packages/",
-      "outputPath": "/home/indra/Documents/ValueInvest/obj/",
+      "outputPath": "/home/indra/Documents/Project/ValueInvest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/indra/.nuget/NuGet/NuGet.Config"
@@ -55,6 +55,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
