@@ -1,12 +1,12 @@
 {
   "name": "mvcmovie",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "wpb": "webpack --config webpack.config.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "buildWebpack": "npx webpack"
   },
   "author": "",
   "license": "ISC",
@@ -19,9 +19,14 @@
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",
     "babel-core": "^6.26.3",
-    "babel-loader": "^9.1.3"
-  }
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "description": ""
 }
